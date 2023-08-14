@@ -80,8 +80,10 @@
   <!-- 页面预加载动画 -->
 
   
-    <div class="preloader_2" id="loader">
-  <div class="loader"></div>
+    <div class="preloader_3" id="loader">
+  <div class="bar">
+    <div class="ball"></div>
+  </div>
 </div>
 
   
@@ -212,7 +214,7 @@
                   
                     <i class="fas fa-home" aria-hidden="true"></i>
                   
-                  <span class="name">Home</span>
+                  <span class="name">首页</span>
                 </a>
               
             </li>
@@ -223,7 +225,7 @@
                   
                     <i class="fas fa-archive" aria-hidden="true"></i>
                   
-                  <span class="name">Archives</span>
+                  <span class="name">归档</span>
                 </a>
               
             </li>
@@ -234,7 +236,7 @@
                   
                     <i class="fas fa-tags" aria-hidden="true"></i>
                   
-                  <span class="name">Tags</span>
+                  <span class="name">标签</span>
                 </a>
               
             </li>
@@ -245,7 +247,7 @@
                   
                     <i class="fas fa-bookmark" aria-hidden="true"></i>
                   
-                  <span class="name">Categories</span>
+                  <span class="name">分类</span>
                 </a>
               
             </li>
@@ -254,7 +256,7 @@
               
                 <a href="/friends" class="drawer-menu-item-link">
                   
-                  <span class="name">Friends</span>
+                  <span class="name">友情链接</span>
                 </a>
               
             </li>
@@ -386,53 +388,53 @@
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/" class="menu-item-link" title="Home">
+                <a href="/" class="menu-item-link" title="首页">
                   
                     <i class="fas fa-home" aria-hidden="true"></i>
                   
-                  <span class="name">Home</span>
+                  <span class="name">首页</span>
                 </a>
               
             </li>
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/archives" class="menu-item-link" title="Archives">
+                <a href="/archives" class="menu-item-link" title="归档">
                   
                     <i class="fas fa-archive" aria-hidden="true"></i>
                   
-                  <span class="name">Archives</span>
+                  <span class="name">归档</span>
                 </a>
               
             </li>
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/tags" class="menu-item-link" title="Tags">
+                <a href="/tags" class="menu-item-link" title="标签">
                   
                     <i class="fas fa-tags" aria-hidden="true"></i>
                   
-                  <span class="name">Tags</span>
+                  <span class="name">标签</span>
                 </a>
               
             </li>
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/categories" class="menu-item-link" title="Categories">
+                <a href="/categories" class="menu-item-link" title="分类">
                   
                     <i class="fas fa-bookmark" aria-hidden="true"></i>
                   
-                  <span class="name">Categories</span>
+                  <span class="name">分类</span>
                 </a>
               
             </li>
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/friends" class="menu-item-link" title="Friends">
+                <a href="/friends" class="menu-item-link" title="友情链接">
                   
-                  <span class="name">Friends</span>
+                  <span class="name">友情链接</span>
                 </a>
               
             </li>
@@ -500,13 +502,13 @@
         <h2>
           <span>
             <i class="fas fa-search" aria-hidden="true"></i>
-            <span class="title">Search</span>
+            <span class="title">本地搜索</span>
           </span>
           <i class="fas fa-times close" pointer style="float:right;" aria-hidden="true" @click.self="cancelDialogVisible()"></i>
         </h2>
         <form class="site-search-form">
           <input type="text"
-            placeholder="Please enter keywords"
+            placeholder="请输入关键字"
             id="local-search-input" 
             @click="getSearchFile()"
             class="st-search-input"
@@ -680,7 +682,7 @@
 
 
 <script>
-  var autoplay = JSON.parse('false');
+  var autoplay = JSON.parse('true');
   var delay = '5000';
   var loop = JSON.parse('true') ? false : JSON.parse('true');
   var effect = 'slide';
@@ -1446,7 +1448,7 @@
 
 
 <div class="topArticle reveal">
-	<h3><i class="fas fa-thumbs-o-up" aria-hidden="true"></i>Recommend Articles</h3>
+	<h3><i class="fas fa-thumbs-o-up" aria-hidden="true"></i>推荐文章</h3>
 	<div class="articles">
 		
 			
@@ -1519,7 +1521,7 @@
   <div class='content'>
     
       
-        <a class='avatar flat-box rectangle' href='/about/'>
+        <a class='avatar flat-box circle' href='/about/'>
           <img src='https://pic2.zhimg.com/80/v2-42b72d5ebee4b8d8aa70d9687effe87b_1440w.webp'/>
         </a>
       
@@ -1527,10 +1529,10 @@
     
       <div class='text'>
         
-          <h2>青墨书晚风</h2>
+          <h2>RYH's Blog</h2>
         
         
-          <p>我是副标题</p>
+          <p>Welcome ^_^ ~</p>
 
         
         
@@ -1552,7 +1554,7 @@
           
         
           
-            <a href="mailto:me@xxx.com"
+            <a href="/yuhao_ren@163.com"
               class="social fas fa-envelope flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -1561,7 +1563,7 @@
           
         
           
-            <a href="https://github.com/yuang01/hexo-theme-bamboo"
+            <a href="https://github.com/RYH2077"
               class="social fab fa-github flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -1570,7 +1572,7 @@
           
         
           
-            <a href="tencent://AddContact/?fromId=50&amp;fromSubId=1&amp;subcmd=all&amp;uin=你的qq号码"
+            <a href="tencent://AddContact/?fromId=50&amp;fromSubId=1&amp;subcmd=all&amp;uin=1178082508"
               class="social fab fa-qq flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -1642,7 +1644,7 @@
       
   <section class="widget side_archives">
     
-    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">July 2023</span><span class="card-archive-list-count">1</span></a></li></ul></div>
+    <header><a style="color: red" href='/archives/'><i class="fas fa-archive fa-fw" aria-hidden="true"></i><span class='name'>归档</span></a></header><div class="content"><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">七月 2023</span><span class="card-archive-list-count">1</span></a></li></ul></div>
   </section>
 
       <section class="widget side_webinfo">
@@ -1702,8 +1704,8 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Sun Aug 13 2023 13:38:17 GMT+0800 (中国标准时间)</div>
-            <div id="last-update-show">2023-08-13 日</div>
+            <div id="last-update" style="display: none;">Mon Aug 14 2023 21:14:23 GMT+0800 (中国标准时间)</div>
+            <div id="last-update-show">2023-08-14 日</div>
           
         </div>
         
@@ -1753,7 +1755,7 @@
           try {
             document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
           } catch (error) {
-            document.getElementById('last-update-show').innerHTML = '2023-08-13 日';
+            document.getElementById('last-update-show').innerHTML = '2023-08-14 日';
           }
         </script>
         
@@ -1960,11 +1962,11 @@
             <!-- 不蒜子统计 -->
             <!-- 不蒜子统计 -->
 <span id="busuanzi_container_site_pv">
-      <i class="fas fa-eye" aria-hidden="true"></i>Total visits：<span id="busuanzi_value_site_pv"></span> times
+      <i class="fas fa-eye" aria-hidden="true"></i>本站总访问量：<span id="busuanzi_value_site_pv"></span> 次
 </span>
 <span class="post-meta-divider">|</span>
 <span id="busuanzi_container_site_uv" style='display:none'>
-      <i class="fas fa-users" aria-hidden="true"></i>Number of visitors：<span id="busuanzi_value_site_uv"></span> people
+      <i class="fas fa-users" aria-hidden="true"></i>本站访客数：<span id="busuanzi_value_site_uv"></span> 人
 </span>
 
           
@@ -2415,7 +2417,7 @@
       },
       mounted() {
         const that = this;
-        var copy = 'copy';
+        var copy = '复制';
         /* code */
         var initCopyCode = function () {
           var copyHtml = '';

@@ -80,8 +80,10 @@
   <!-- 页面预加载动画 -->
 
   
-    <div class="preloader_2" id="loader">
-  <div class="loader"></div>
+    <div class="preloader_3" id="loader">
+  <div class="bar">
+    <div class="ball"></div>
+  </div>
 </div>
 
   
@@ -212,7 +214,7 @@
                   
                     <i class="fas fa-home" aria-hidden="true"></i>
                   
-                  <span class="name">Home</span>
+                  <span class="name">首页</span>
                 </a>
               
             </li>
@@ -223,7 +225,7 @@
                   
                     <i class="fas fa-archive" aria-hidden="true"></i>
                   
-                  <span class="name">Archives</span>
+                  <span class="name">归档</span>
                 </a>
               
             </li>
@@ -234,7 +236,7 @@
                   
                     <i class="fas fa-tags" aria-hidden="true"></i>
                   
-                  <span class="name">Tags</span>
+                  <span class="name">标签</span>
                 </a>
               
             </li>
@@ -245,7 +247,7 @@
                   
                     <i class="fas fa-bookmark" aria-hidden="true"></i>
                   
-                  <span class="name">Categories</span>
+                  <span class="name">分类</span>
                 </a>
               
             </li>
@@ -254,7 +256,7 @@
               
                 <a href="/friends" class="drawer-menu-item-link">
                   
-                  <span class="name">Friends</span>
+                  <span class="name">友情链接</span>
                 </a>
               
             </li>
@@ -386,53 +388,53 @@
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/" class="menu-item-link" title="Home">
+                <a href="/" class="menu-item-link" title="首页">
                   
                     <i class="fas fa-home" aria-hidden="true"></i>
                   
-                  <span class="name">Home</span>
+                  <span class="name">首页</span>
                 </a>
               
             </li>
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/archives" class="menu-item-link" title="Archives">
+                <a href="/archives" class="menu-item-link" title="归档">
                   
                     <i class="fas fa-archive" aria-hidden="true"></i>
                   
-                  <span class="name">Archives</span>
+                  <span class="name">归档</span>
                 </a>
               
             </li>
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/tags" class="menu-item-link" title="Tags">
+                <a href="/tags" class="menu-item-link" title="标签">
                   
                     <i class="fas fa-tags" aria-hidden="true"></i>
                   
-                  <span class="name">Tags</span>
+                  <span class="name">标签</span>
                 </a>
               
             </li>
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/categories" class="menu-item-link" title="Categories">
+                <a href="/categories" class="menu-item-link" title="分类">
                   
                     <i class="fas fa-bookmark" aria-hidden="true"></i>
                   
-                  <span class="name">Categories</span>
+                  <span class="name">分类</span>
                 </a>
               
             </li>
           
             <li class="menu-item" style="position: relative;">
               
-                <a href="/friends" class="menu-item-link" title="Friends">
+                <a href="/friends" class="menu-item-link" title="友情链接">
                   
-                  <span class="name">Friends</span>
+                  <span class="name">友情链接</span>
                 </a>
               
             </li>
@@ -500,13 +502,13 @@
         <h2>
           <span>
             <i class="fas fa-search" aria-hidden="true"></i>
-            <span class="title">Search</span>
+            <span class="title">本地搜索</span>
           </span>
           <i class="fas fa-times close" pointer style="float:right;" aria-hidden="true" @click.self="cancelDialogVisible()"></i>
         </h2>
         <form class="site-search-form">
           <input type="text"
-            placeholder="Please enter keywords"
+            placeholder="请输入关键字"
             id="local-search-input" 
             @click="getSearchFile()"
             class="st-search-input"
@@ -630,7 +632,7 @@
     
       
         <span class="post-detail-header_date">
-          <i class="fas fa-calendar"></i> Published in：2023-07-12 |
+          <i class="fas fa-calendar"></i> 发表于：2023-07-12 |
         </span>
       
 
@@ -676,16 +678,16 @@
         <div class="copyright">
   <ul class="post-copyright">
     <li class="post-copyright-author">
-    <strong>author:  </strong>John Doe</a>
+    <strong>作者:  </strong>John Doe</a>
     </li>
     <li class="post-copyright-link">
-    <strong>link:  </strong>
+    <strong>文章链接:  </strong>
     <a href="/2023/07/12/hello-world/" target="_blank" title="Hello World">http://ryh2077.github.io/2023/07/12/hello-world/</a>
     </li>
     <li class="post-copyright-license">
-      <strong>Copyright notice:   </strong>
-      All articles on this website, unless otherwise stated, adopt <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
-      reprint policy. If reproduced, please indicate source!
+      <strong>版权声明:   </strong>
+      本网站所有文章除特别声明外,均采用 <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+      许可协议。转载请注明出处!
     </li>
   </ul>
 <div>
@@ -832,7 +834,7 @@
   <div class='content'>
     
       
-        <a class='avatar flat-box rectangle' href='/about/'>
+        <a class='avatar flat-box circle' href='/about/'>
           <img src='https://pic2.zhimg.com/80/v2-42b72d5ebee4b8d8aa70d9687effe87b_1440w.webp'/>
         </a>
       
@@ -840,10 +842,10 @@
     
       <div class='text'>
         
-          <h2>青墨书晚风</h2>
+          <h2>RYH's Blog</h2>
         
         
-          <p>我是副标题</p>
+          <p>Welcome ^_^ ~</p>
 
         
         
@@ -865,7 +867,7 @@
           
         
           
-            <a href="mailto:me@xxx.com"
+            <a href="/yuhao_ren@163.com"
               class="social fas fa-envelope flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -874,7 +876,7 @@
           
         
           
-            <a href="https://github.com/yuang01/hexo-theme-bamboo"
+            <a href="https://github.com/RYH2077"
               class="social fab fa-github flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -883,7 +885,7 @@
           
         
           
-            <a href="tencent://AddContact/?fromId=50&amp;fromSubId=1&amp;subcmd=all&amp;uin=你的qq号码"
+            <a href="tencent://AddContact/?fromId=50&amp;fromSubId=1&amp;subcmd=all&amp;uin=1178082508"
               class="social fab fa-qq flat-btn"
               target="_blank"
               rel="external nofollow noopener noreferrer">
@@ -1313,11 +1315,11 @@
             <!-- 不蒜子统计 -->
             <!-- 不蒜子统计 -->
 <span id="busuanzi_container_site_pv">
-      <i class="fas fa-eye" aria-hidden="true"></i>Total visits：<span id="busuanzi_value_site_pv"></span> times
+      <i class="fas fa-eye" aria-hidden="true"></i>本站总访问量：<span id="busuanzi_value_site_pv"></span> 次
 </span>
 <span class="post-meta-divider">|</span>
 <span id="busuanzi_container_site_uv" style='display:none'>
-      <i class="fas fa-users" aria-hidden="true"></i>Number of visitors：<span id="busuanzi_value_site_uv"></span> people
+      <i class="fas fa-users" aria-hidden="true"></i>本站访客数：<span id="busuanzi_value_site_uv"></span> 人
 </span>
 
           
@@ -1768,7 +1770,7 @@
       },
       mounted() {
         const that = this;
-        var copy = 'copy';
+        var copy = '复制';
         /* code */
         var initCopyCode = function () {
           var copyHtml = '';
