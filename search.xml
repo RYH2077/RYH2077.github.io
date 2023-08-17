@@ -4,11 +4,38 @@
   
     
     <entry>
-      <title>西安旅游打卡计划</title>
+      <title>Markdown语法学习</title>
+      <link href="/2023/08/17/markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+      <url>/2023/08/17/markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<p><strong>1.标题</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br></pre></td></tr></table></figure><center>>>>展示效果<<<</center><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><hr>]]></content>
+      
+      
+      <categories>
+          
+          <category> Markdown </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>旅游打卡计划</title>
       <link href="/2023/08/16/%E8%A5%BF%E5%AE%89%E6%97%85%E6%B8%B8%E6%89%93%E5%8D%A1%E8%AE%A1%E5%88%92/"/>
       <url>/2023/08/16/%E8%A5%BF%E5%AE%89%E6%97%85%E6%B8%B8%E6%89%93%E5%8D%A1%E8%AE%A1%E5%88%92/</url>
       
-        <content type="html"><![CDATA[<table><thead><tr><th align="center">景点名称</th><th align="center">计划时间</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center">大唐不夜城</td><td align="center">2023&#x2F;04&#x2F;01</td><td align="center">DONE</td></tr><tr><td align="center">秦兵马俑</td><td align="center">待定</td><td align="center">NON</td></tr></tbody></table>]]></content>
+        <content type="html"><![CDATA[<center>陕西省-西安市<table><thead><tr><th align="center">景点名称</th><th align="center">计划时间</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center">大唐不夜城</td><td align="center">2023&#x2F;04&#x2F;01</td><td align="center">DONE</td></tr><tr><td align="center">秦兵马俑</td><td align="center">待定</td><td align="center">NON</td></tr></tbody></table><p>河南省-洛阳市</p><table><thead><tr><th align="center">景点名称</th><th align="center">计划时间</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center"><a href="http://ryh2077.github.io/2023/08/14/01-%E6%B8%B8%E8%AE%B01-%E8%80%81%E5%90%9B%E5%B1%B1/">老君山</a></td><td align="center">2023&#x2F;06&#x2F;12</td><td align="center">DONE</td></tr><tr><td align="center"><a href="http://ryh2077.github.io/2023/08/15/02-%E6%B8%B8%E8%AE%B02-%E9%BE%99%E6%BD%AD%E5%A4%A7%E5%B3%A1%E8%B0%B7/">龙潭大峡谷</a></td><td align="center">2023&#x2F;06&#x2F;14</td><td align="center">DONE</td></tr></tbody></table></center>]]></content>
       
       
       <categories>
@@ -101,9 +128,9 @@
       
         <tags>
             
-            <tag> 老君山 </tag>
-            
             <tag> 洛阳 </tag>
+            
+            <tag> 老君山 </tag>
             
         </tags>
       
